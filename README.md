@@ -1,4 +1,4 @@
-# Native-JavaScript-Multilanguage-Templating
+# Native JavaScript Multilanguage Templating
 
 This is a sample for working with localization and templates with vanilla JavaScript, as described here:
 
