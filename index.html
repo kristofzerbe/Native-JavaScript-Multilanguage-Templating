@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta http-equiv="language" content="en">
+
+        <title>Native JavaScript Multilanguage Templating</title>
+
+        <style>
+            body { padding: 2rem; }
+            main { text-align: center; }
+            h1 { margin: 0.5rem; }
+            select { padding: 1rem; font-size: 1rem; }
+        </style>
+
+        <script type="module">
+            import { App } from './app.js';
+            window.app = new App(); 
+            app.init();
+        </script>
+
+    </head>
+
+    <body>
+        <header>
+            <select id="languages"></select>
+        </header>
+        
+        <main></main>
+    </body>
+
+</html>
